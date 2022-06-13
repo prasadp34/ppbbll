@@ -1,0 +1,186 @@
+*{margin: 0;padding: 0;}
+.container{
+    width:200px;
+    height: 300px;
+    margin: 35px auto;
+    font-family: 'Open Sans', sans-serif;
+}
+.intro{
+    float: right;
+    text-align: left;
+    font-size: 30px;
+    
+    
+    
+}   
+.img2{
+    border-radius: 35%;
+    
+    
+}
+.container-fluid{
+
+}
+a{
+    font-family:'Bebas Neue', cursive;
+    font-size: 30px;
+    color: black;
+    transition: width 2s;
+}
+a1{
+    font-family:'Bebas Neue', cursive;
+    padding-left: 10px;
+
+}
+.container2{
+    width:90%;
+    height: 400px;
+    margin: 30px auto;
+    position: relative;
+    padding-top: 50px;
+
+}
+.main-header{
+    width: 100%;
+    height: 2000vh;
+    background-image: url();
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    
+}
+.item1{
+    float: right;
+}
+.container2{
+    padding-top:50px; 
+}
+.container3{
+    width:90%;
+    height: 400px;
+    margin: 30px auto;
+    position: relative;
+    padding-top: 50px;
+}
+.container4{
+    width:90%;
+    height:400px;
+    margin: 30px auto;
+    position: relative;
+    padding-top: 50px;
+}
+.img5{
+    float: right;
+}
+.item2{
+    font-size: 30px;
+}
+nav{
+margin: 0px 0px;
+padding: 0px 0px;
+ 
+
+}
+.item4{
+    
+    float: right;
+    margin:-368px 86px;
+    padding:5px 4px;
+    font-size: 30px;
+}
+.item6{
+    font-size: 30px;
+}
+.main-header{
+    background: linear-gradient(to left,#E9D5DA,#827397);
+    width: 100%;
+    height: 250vh;
+}
+.box-area{
+    width:100%;
+    height: 250vh;
+    position: relative;
+    margin: -1329px 2px;
+    padding: 2px 3px;
+    filter: blur();
+}
+.box-area div{
+    width: 70px;
+    height: 70px;
+    /*border: 5px solid red;*/
+    position: absolute;
+}
+.box-area div:nth-child(1){
+    top: 15%;
+    left: 30%;
+    animation: square 5s linear infinite;
+
+}
+.box-area div:nth-child(2){
+    top: 20%;
+    left: 50%;
+    animation: square 7s linear infinite;
+}
+.box-area div:nth-child(3){
+    top: 60%;
+    left: 10%;
+    animation: square 9s linear infinite;
+}
+.box-area div:nth-child(4){
+    top: 60%;
+    left: 40%;
+    animation: square 11s linear infinite;
+}
+.box-area div:nth-child(5){
+    top: 40%;
+    left: 60%;
+    animation: square 7s linear infinite;
+}
+.box-area div:nth-child(6){
+    top: 70%;
+    left: 30%;
+    animation: square 13s linear infinite;
+}
+.box-area div:nth-child(7){
+    top: 20%;
+    left: 10%;
+    animation: square 12s linear infinite;
+}
+.box-area div:nth-child(8){
+    top: 1%;
+    left: 70%;
+    animation: square 11s linear infinite;
+}
+.box-area div:nth-child(9){
+    top: 5%;
+    left: 52%;
+    animation: square 9s linear infinite;
+}
+.box-area div:nth-child(10){
+    top: 35%;
+    left: 80%;
+    animation: square 7s linear infinite;
+}
+@keyframes square{
+    0%{
+        transform:scale(0) translateY(0) rotate(0);
+    }
+    100%{
+        transform:scale(1.2) translateY(-90px) rotate(360deg);
+    }
+}
+
+
+
+
+
+
+  
+    
+
+    
+
+
+
+
+
